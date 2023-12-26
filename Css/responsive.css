@@ -1,7 +1,134 @@
-@media(max-width:1200px){
+@media(max-width:992px) {
     
-}
-@media(max-width:992px){
+    .slider-container {
+        height: 200px;
+    }
+
+    .slider-container img {
+        width: 400px;
+
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
+    .home-h1 {
+        font-size: 50px !important;
+    }
 }
 
-    
+@media(max-width:666px) {
+    .slider-container {
+        height: 200px;
+    }
+
+    .slider-container img {
+        width: 400px;
+
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
+    .home-h1 {
+        font-size: 40px !important;
+    }
+
+    .para {
+        width: 400px;
+        margin-top: 20px;
+    }
+    .fourth-section .img{
+        width: 100%;
+        height: 500px;
+         
+    }
+    .footer {
+        justify-content: center;
+    }
+
+    .contact-container {
+        justify-content: center;
+    }
+}
+@media(max-width:430px) {
+    p{
+        font-size: 11px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    h6{
+        font-size: 12px;
+    }
+    .slider-container {
+        height: 200px;
+    }
+
+    .slider-container img {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 25px !important;
+    }
+
+    .home-h1 {
+        font-size: 30px !important;
+    }
+    .home-btn button:first-child{
+        font-size: 12px;
+        margin-right: 0;
+    }
+    .home-btn button:last-child{
+        font-size: 12px;
+        width: 120px;
+    }
+    .para {
+        width: 250px;
+        margin-top: 10px;
+    }
+    .cards-section .card{
+        width: 275px;
+    }
+    .cards-section .card img{
+        height: 100%;
+        width: 275px;
+    }
+    .fourth-section .img{
+        height: 300px;
+    }
+    .our-services .services-content img{
+        width: 80px;
+        height: 80px;
+    }
+    .our-services .nav-link{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .slider-container {
+        height: 150px;
+    }
+
+    .slider-container img {
+        width: 300px;
+    }
+    .footer-container li{
+        font-size: 10px !important;
+    }
+    .footer-container a{
+        font-size: 10px !important;
+    }
+    .sign-up input{
+        width: 170px;
+        font-size: 15px;
+        
+    }
+    .sign-up button{
+        width: 70px;
+        font-size: 10px;
+        
+    }
+}

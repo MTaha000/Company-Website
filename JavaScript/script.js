@@ -1,3 +1,15 @@
+let navCollapse = document.querySelector(".navbar-collapse")
+let navLink = document.querySelectorAll("nav .nav-link")
+let themeIcon = document.querySelector("#icon i")
+for(let x = 0; x < navLink.length; x++){
+    navLink[x].addEventListener("click",()=>{
+        navCollapse.classList.remove("show")
+    })
+}
+themeIcon.addEventListener("click",()=>{
+    navCollapse.classList.remove("show")
+})
+
 
 let homeheading1 = document.querySelector(".hidden1")
 setInterval(anim, 1150)

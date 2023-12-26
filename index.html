@@ -18,7 +18,7 @@
 <body class="bg-dark text-light">
   <div class="home-container">
     <div class="container-lg home">
-      <nav class="navbar mt-3 navbar-expand-md rounded-5 bg-body-tertiary fixed-top">
+      <nav class="navbar mt-3 navbar-expand-md  rounded-5 bg-body-tertiary fixed-top">
         <div class="container-fluid mx-2">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -26,7 +26,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav text-center ">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home<a>
               </li>
@@ -36,22 +36,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Policy</a>
               </li>
             </ul>
-            <div id="icon">
+            <div id="icon" class="text-end">
               <i class="fa-solid fa-sun fs-3 ms-4 text-dark icon"></i>
             </div>
           </div>
@@ -59,33 +48,33 @@
       </nav>
       <div class="container-xl">
         <div class="row">
-          <div class="col-7 home-left-box justify-content-center rounded-5">
+          <div class="col-lg-7 col-12 home-left-box justify-content-center rounded-5">
             <h1 class="home-h1"><span class="hidden1">COMPLETE </span><span class="hidden2">WEB DESIGN </span><span
                 class="hidden3">& DEVELOPMENT</span></h1>
             <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque obcaecati, aut
               aliquam voluptatem illum quae, magni molestias neque distinctio velit odio libero soluta labore minima?
               Cum reiciendis animi necessitatibus explicabo.</p>
-            <div class="container">
+            <div class="home-btn">
               <button class="btn btn-primary">View Pricing</button>
               <button class="btn btn-warning"><span>Book a Free Consultation</span></button>
             </div>
           </div>
-          <div class="col-5">
+          <div class="col-lg-5 col-12">
 
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-xl cards-section">
+  <div class="container-lg cards-section my-5">
     
-      <div class="cards-heading-box">
+      <div class="cards-heading-box mb-5">
         <p>DESIGN. DEVELOPMENT. CONSULTANCY</p>
-        <h1>Develop results-driven products for entrepreneurs, startups, and enterprises with a leading software
-          development company.</h1>
+        <h2>Develop results-driven products for entrepreneurs, startups, and enterprises with a leading software
+          development company.</h2>
       </div>
-      <div class="row ">
-      <div class="col-4">
+      <div class="row my-5 ">
+      <div class="col-xl-4 card-box">
         <div class="card card1 bg-dark text-light">
           <div class="card-body p-1">
             <h5 class="card-title">Web Development</h5>
@@ -96,7 +85,7 @@
         </div>
       </div>
 
-      <div class="col-4">
+      <div class="col-xl-4 card-box">
         <div class="card card2 bg-dark text-light">
           <div class="card-body p-1">
             <h5 class="card-title">Mobile App Development</h5>
@@ -107,7 +96,7 @@
         </div>
       </div>
 
-      <div class="col-4">
+      <div class="col-xl-4 card-box">
         <div class="card card3 bg-dark text-light">
           <div class="card-body p-1">
             <h5 class="card-title">Blockchain Development</h5>
@@ -119,7 +108,7 @@
       </div>
     </div>
   </div>
-  <div class="container-xl third-section">
+  <div class="container-xl third-section my-5">
     <div class="row text-center justify-content-center">
       <p class="bg-success w-auto rounded-5">Custom Web Design & Development Packages for Your Business</p>
       <h2 class="mt-5 mb-5 ">Choose the Perfect <span class="text-success"><u>Website Solution</u></span> for Your
@@ -204,12 +193,18 @@
   </div>
 
   <div class="container-xl fourth-section text-center">
-    <img class="my-5" src="./image/our-web-development-process-01-3.png" alt="">
+    <div class="row">
+      <div class="col-12 my-5">
+        <div class="img">
+        <div></div>
+      </div>
+      </div>
+    </div>
   </div>
 
-  <div class="container-xl py-5 fifth-section">
+  <div class="container-xl fifth-section my-5 my-lg-0">
     <div class="row">
-      <div class="col-6">
+      <div class="col-lg-6  px-lg-5 text-center">
         <h2 class="mb-4">Website Design & Development</h2>
         <p>We offer comprehensive web design and development services that are tailored to meet
           the unique needs of your
@@ -221,7 +216,7 @@
           achieve your online objectives. Contact us today to learn more about our web design and development services
           and how we can help your business succeed online.</p>
       </div>
-      <div class="col-6 package-box">
+      <div class="col-lg-6 my-5 my-lg-0 package-box">
         <form action="" class="ps-1">
           <label for="package" class="fs-4 fw-bolder">Package</label>
           <select name="package" id="package" class="form-select">
@@ -244,7 +239,7 @@
   </div>
   <div class="container-xl py-5 sixth-section">
     <div class="row justify-content-around">
-      <div class="col-6 sixth-left-section px-5 rounded-5">
+      <div class="col-lg-6 my-5 my-lg-0 sixth-left-section px-5 rounded-5">
         <div class="text-dark bg-light d-inline-block p-2 rounded-4">
           <h2 class="">Did you know?</h2>
           <p>38 percent of visitors will stop engaging with a website if the content or layout is unattractive.
@@ -253,7 +248,7 @@
         <input type="button" class="btn mx-auto my-3 btn-success" value="Book a Free Consultation">
       </div>
 
-      <div class="col-5 border text-center sixth-right-section py-4">
+      <div class="col-lg-5 my-5 my-lg-0 border text-center sixth-right-section py-4">
         <p>Unlimited Possibilities</p>
         <h2>Web Design-related Issues Resolved</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quidem sapiente qui odio officiis, provident
@@ -266,16 +261,18 @@
       </div>
     </div>
   </div>
-  <div class="seventh-section">
-    <div class="container seventh-box">
-      <p class="bg-success px-3 rounded-4">See How We've Helped Businesses Succeed Online</p>
-      <h2>Our Website and Development <u class="bg-success px-2 rounded-4 py-1">Projects</u></h2>
+  <div class="seventh-section my-5">
+    <div class="seventh-box px-lg-5">
+      <p class="bg-success px-3 rounded-4 text-center">See How We've Helped Businesses Succeed Online</p>
+      <h2 class="text-center">Our Website and Development <u class="bg-success px-2 rounded-4 py-1">Projects</u></h2>
+      <div class="container-lg">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam error veritatis optio unde, molestiae in
         itaque odio voluptates perferendis nemo dignissimos maiores quos corporis doloribus necessitatibus quaerat sit!
         Aliquam dolores eum repudiandae excepturi quod? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Pariatur obcaecati tempora consequuntur provident fugit. Soluta dolorem sapiente fuga expedita omnis.</p>
       <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, itaque! dolor sit amet
         consectetur, adipisicing elit. Minima, ut nobis exercitationem eius adipisci possimus.</p>
+      </div>
     </div>
     <div class="seventh-slider">
 
@@ -294,9 +291,9 @@
 
     </div>
   </div>
-  <div class="footer-container">
+  <div class="footer-container mt-5">
     <div class="container-xl contact-container">
-      <div class="about">
+      <div class="about mx-md-5 mx-3 mt-5">
         <h4>About Me</h4>
         <p>Get To Know Me</p>
         <p>If you'd like to work with me please fill out the <b>contact form</b></p>
@@ -310,7 +307,7 @@
         </div>
         </div>
       </div>
-      <div class="look-around">
+      <div class="look-around mx-md-5 mx-3 mt-5">
         <h4>Look Around</h4>
         <ul>
           <li>Web Development</li>
@@ -324,13 +321,12 @@
           <li>Support</li>
         </ul>
       </div>
-      <div class="address">
+      <div class="address mx-md-5 mx-3 mt-5">
         <h4>Address</h4>
         <p>Pakistan,Karachi</p>
       </div>
-      <div class="contact">
+      <div class="contact mx-md-5 mx-3 mt-5">
         <h4>Contact</h4>
-        <a href="">Contact Us</a>
         <h6 class="mt-3">Phone</h6>
         <b>92+ 0312-3456789</b>
         <h6 class="mt-3">E-mail</h6>
@@ -343,7 +339,7 @@
         </div>
       </div>
     </div>
-    <div class="container footer">
+    <div class="container-md footer">
       <h6>Copyright © CompanyName 2013-2023.</h6>
       <div class="footer-links">
         <a href="">Careers</a>
